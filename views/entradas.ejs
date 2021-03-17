@@ -1,0 +1,120 @@
+<%- include("template/cabecera") %>
+<%- include("template/navegador") %>
+
+<section class="tm-welcome-section">
+    <div class="container tm-position-relative">
+      <div class="tm-lights-container">
+        <img src="img/light.png" alt="Light" class="light light-1">
+        <img src="img/light.png" alt="Light" class="light light-2">
+        <img src="img/light.png" alt="Light" class="light light-3">
+      </div>
+      <div class="row tm-welcome-content">
+        <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="img/header-line.png" alt="Line"
+            class="tm-header-line">&nbsp;Nuestro Menú&nbsp;&nbsp;<img src="img/header-line.png" alt="Line"
+            class="tm-header-line"></h2>
+        <h2 class="gold-text tm-welcome-header-2">Cup Brown</h2>
+        <p class="gray-text tm-welcome-description">Buscamos brindar un buen momento con amigos o familia acompañados de
+          un café. Disfruta de nuestros deliciosos postres y bebidas, contamos con todas las medidas de seguridad anti
+          COVID-19.</p>
+        <a href="#main" class="tm-more-button tm-more-button-welcome">Ver más</a>
+      </div>
+      <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">
+    </div>
+  </section>
+  <div class="tm-main-section light-gray-bg">
+    <div class="container" id="main">
+      <section class="tm-section row">      
+      </section>
+      <section class="tm-section row">
+        <div class="col-lg-12 tm-section-header-container margin-bottom-30">
+          <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo"
+              class="tm-site-logo"> Nuesto Menú</h2>
+          <div class="tm-hr-container">
+            <hr class="tm-hr">
+          </div>
+        </div>
+        <div>
+          <div class="tm-position-relative col-lg-3 col-md-3">
+            <nav class="tm-side-menu">
+              <ul>
+                <li><a href="/menu#cafeCaliente" >Café Caliente</a></li>
+                <li><a href="/cafeFrio#cafeFrio">Café Frío</a></li>
+                <li><a href="/bebidasAlcoholicas#bebidasAloholicas">Bebidas con Alcohol</a></li>
+                <li><a href="#entradas" class="active">Entradas</a></li>
+                <li><a href="/platosFuertes#platosFuertes">Platos Fuertes</a></li>                              
+              </ul>
+            </nav>
+            <img src="img/vertical-menu-bg1.png" alt="Menu bg" class="tm-side-menu-bg">
+          </div>
+        </div>
+        <div class="tm-menu-product-content col-lg-9 col-md-9">
+          <!--Entradas -->
+          <div id="entradas" class="tm-product">
+            <img src="img/deditosDeQueso.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Deditos de queso</h3>
+              <p class="tm-product-description">El café americano es la mezcla de agua caliente y café procesado en un
+                máquina de Espresso. </p>
+            </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>30</a>
+            </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/nachosCarne.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Nachos con carne</h3>
+              <p class="tm-product-description">Se realiza haciendo pasar durante 25-30 segundos un chorro de agua
+                caliente a presión (9 o más atmósferas) a través de una capa de 7 gramos fina y prensada de café molido.
+              </p>
+            </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>20</a>
+            </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/papasFritas.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Papas Fritas</h3>
+              <p class="tm-product-description">Es un tipo de café preparado a base de café espresso y leche al vapor.
+                Suele prepararse con un tercio de espresso, dos tercios de leche calentada y un centímetro de espuma.
+              </p>
+            </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>15</a>
+            </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/baguette.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Baguette</h3>
+              <p class="tm-product-description">Lleva un tercio de eapresso y dos tercios de leche vaporizada, pero se
+                añade una parte de jarabe de chocolate,</p>
+            </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>25</a>
+            </div>
+          </div>
+          <div class="tm-product">
+            <img src="img/yogurGriego.jpg" alt="Product">
+            <div class="tm-product-text">
+              <h3 class="tm-product-title">Yogur Griego</h3>
+              <p class="tm-product-description">Café espresso con una pequeña cantidad de leche caliente para quitarle
+                un toque de amargo</p>
+            </div>
+            <div class="tm-product-price">
+              <a href="#" class="tm-product-price-link tm-handwriting-font"><span
+                  class="tm-product-price-currency">Q</span>45</a>
+            </div>
+          </div>
+        </div>       
+    </div>
+  </div>
+  </section>
+  </div>
+  </div>
+<%- include("template/footer") %>
